@@ -1,0 +1,1 @@
+print("26\nqua_ver")

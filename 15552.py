@@ -1,9 +1,3 @@
 import sys
-
-n = int(sys.stdin.readline())
-sum_list = []
-for _ in range(n):
-    sum_list.append(sum(map(int, sys.stdin.readline().split())))
-
-for i in range(n):
-    print(sum_list[i])
+for _ in range(int(sys.stdin.readline())):
+    print(sum(map(int, sys.stdin.readline().split())))

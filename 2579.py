@@ -1,9 +1,9 @@
 import sys
 
-n = int(input())
 stair = []
 dp = []
 
+n = int(input())
 for _ in range(n):
     stair.append(int(sys.stdin.readline()))
 
